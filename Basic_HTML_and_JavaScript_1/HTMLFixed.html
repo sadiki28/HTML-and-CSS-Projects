@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript String Methods</h1>
+<h2>The fixed() Method</h2>
+
+<p id="demo1"></p>
+
+<p>The fixed() method is deprecated in JavaScript.</p>
+<p>Use the kbd tag instead:</p>
+
+<p id="demo2"></p>
+
+<script>
+let text = "Hello World!";
+let result = text.fixed();
+document.getElementById("demo1").innerHTML = result;
+
+text = "<kbd>Hello World!</kbd>"; 
+document.getElementById("demo2").innerHTML = text;
+</script>
+
+</body>
